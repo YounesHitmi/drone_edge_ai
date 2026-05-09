@@ -1,0 +1,14 @@
+# virtual environments
+yolo_env/
+venv/
+env/
+
+__pycache__/
+*.pyc
+
+# datasets (too heavy for github repository)
+dataset_formes/
+runs/
+*.pt
+*.engine
+*.onnx
