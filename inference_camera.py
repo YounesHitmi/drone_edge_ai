@@ -4,7 +4,7 @@ from ultralytics import YOLO
 print("Loading model...")
 model = YOLO('simplist_model.pt') 
 
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(0)
 
 if not cap.isOpened():
     print("Error: impossible to load model.")
