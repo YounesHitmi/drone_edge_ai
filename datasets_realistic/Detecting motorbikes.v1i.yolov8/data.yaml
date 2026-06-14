@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 11
+names: ['Bicycle', 'Bus', 'Dump Truck', 'Truck', 'Xe Buyt', 'Xe tho so', 'XeDap', 'ben', 'car', 'motobyte', 'non-motorized vehicle']
+
+roboflow:
+  workspace: ths-viw3d
+  project: detecting-motorbikes
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ths-viw3d/detecting-motorbikes/dataset/1
